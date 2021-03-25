@@ -6,7 +6,7 @@ namespace Controllers
 {
     public class ClienteController
     {
-        public static void CadastraCliente(int IdCliente, string nome, string DtNasc, string cpf, int DiasDevol)
+        public static void CadastraCliente(string nome, string DtNasc, string cpf, int DiasDevol)
         {
             DateTime Data_Nascimento;
             try
@@ -19,7 +19,7 @@ namespace Controllers
                 Data_Nascimento = DateTime.Now;
             }
 
-            new ClienteModels (IdCliente, nome, Data_Nascimento, cpf, DiasDevol);
+            new ClienteModels ( nome, Data_Nascimento, cpf, DiasDevol);
         }
 
         internal static void InserirCliente(string nome, string sDtNasc, string cpf, int qtdDias)
@@ -48,9 +48,5 @@ namespace Controllers
             return ClienteModels.GetClientes();
         }
 
-        public static void Importar()
-        {
-            ClienteModels.Importar();
-        }
     }
 }

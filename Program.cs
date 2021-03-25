@@ -35,7 +35,7 @@ namespace csharp_mvc_blockbuster
                         ClienteView.InserirCliente ();
                         break;
                     case 2:
-                        // CarroView.InserirCarro ();
+                         CarroView.InserirCarro ();
                         break;
                     case 3:
                         LocacaoView.InserirLocacao ();

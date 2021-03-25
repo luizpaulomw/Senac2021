@@ -15,13 +15,13 @@ namespace View
             Console.WriteLine(" nome: ");
             String nome = Console.ReadLine();
             Console.WriteLine(" data de nascimento (dd/mm/yyyy): ");
-            String sDtNasc = Console.ReadLine();
+            String DtNasc = Console.ReadLine();
             Console.WriteLine("Informe o C.P.F.: ");
             String cpf = Console.ReadLine();
             Console.WriteLine(" dias para devolução: ");
             int qtdDias = Convert.ToInt32(Console.ReadLine());
 
-            ClienteController.InserirCliente(nome, sDtNasc, cpf, qtdDias);
+            ClienteController.CadastraCliente(nome, DtNasc, cpf, qtdDias);
         }
 
         public static void ListarClientes()
@@ -76,10 +76,5 @@ namespace View
         }
 
 
-        public static void Importar()
-        {
-            ClienteController.Importar();
-            Console.WriteLine("CONCLUÍDA COM SUCESSO");
-        }
     }
 }

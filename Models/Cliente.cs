@@ -23,9 +23,8 @@ namespace Models
 
         public List<LocacaoModels > Locacoes { get; set; }
 
-        public ClienteModels (int IdCliente, string nome, DateTime dtNasc, string cpf, int dias)
+        public ClienteModels (string nome, DateTime dtNasc, string cpf, int dias)
         {
-            IdCliente = ClienteRepositories.GetId();
             Nome = nome;
             DtNasc = dtNasc;
             Cpf = cpf;
@@ -34,14 +33,7 @@ namespace Models
             ClienteRepositories.clientes.Add(this);
         }
 
-        public ClienteModels(string v1, DateTime dateTime, string v2, int v3)
-        {
-            this.v1 = v1;
-            this.dateTime = dateTime;
-            this.v2 = v2;
-            this.v3 = v3;
-        }
-
+       
         public void InserirLocacao(LocacaoModels locacao) 
         {
             Locacoes.Add(locacao);
@@ -84,88 +76,8 @@ namespace Models
                 $"Data de Nasciment: {dtNasc}\n" +
                 $"Qtd de Carros: {ClienteController.GetQtdCarro(this)}";
         }
-
-
-        public static void Importar()
-        {
-            ClienteModels cliente;
-            LocacaoModels locacao;
-
-            cliente = new ClienteModels(
-                "Pedro Pereira",
-                new DateTime(1953, 5, 4),
-                "987.546.254.11",
-                6
-            );
-            locacao = new LocacaoModels(
-                cliente,
-                DateTime.Now.AddDays(-5)
-            );
-            locacao.InserirCarro(CarroModels.GetCarro(1));
-            locacao.InserirCarro(CarroModels.GetCarro(2));
-
-            cliente = new ClienteModels(
-                "Eduarda Santos ",
-                new DateTime(1988, 1, 2),
-                "889.578.542.21",
-                8
-            );
-            locacao = new LocacaoModels(
-                cliente,
-                DateTime.Now.AddDays(-8)
-            );
-            locacao.InserirCarro(CarroModels.GetCarro(1));
-            locacao.InserirCarro(CarroModels.GetCarro(6));
-
-            cliente = new ClienteModels(
-                " Joana Aparecida",
-                new DateTime(1985, 12, 7),
-                "897.412.547.88",
-                2
-            );
-            locacao = new LocacaoModels(
-                cliente,
-                DateTime.Now.AddDays(-10)
-            );
-            locacao.InserirCarro(CarroModels.GetCarro(1));
-            locacao.InserirCarro(CarroModels.GetCarro(3));
-
-            cliente = new ClienteModels(
-                "Carol Araújo",
-                new DateTime(1985, 07, 25),
-                "698.458.741.20",
-                5
-            );
-            locacao = new LocacaoModels(
-                cliente,
-                DateTime.Now.AddDays(-20)
-            );
-            locacao.InserirCarro(CarroModels.GetCarro(1));
-            locacao.InserirCarro(CarroModels.GetCarro(5));
-            locacao.InserirCarro(CarroModels.GetCarro(4));
-
-            locacao = new LocacaoModels(
-                cliente,
-                DateTime.Now
-            );
-            locacao.InserirCarro(CarroModels.GetCarro(6));
-            locacao.InserirCarro(CarroModels.GetCarro(2));
-            locacao.InserirCarro(CarroModels.GetCarro(9));
-
-            cliente = new ClienteModels(
-                "Diana medeiros ",
-                new DateTime(1856, 05, 4),
-                "568.487.956.25",
-                15
-            );
-            locacao = new LocacaoModels(
-                cliente,
-                DateTime.Now
-            );
-            locacao.InserirCarro(CarroModels.GetCarro(1));
-            locacao.InserirCarro(CarroModels.GetCarro(5));
-            locacao.InserirCarro(CarroModels.GetCarro(4));
-        }
-
     }
 }
+
+
+
