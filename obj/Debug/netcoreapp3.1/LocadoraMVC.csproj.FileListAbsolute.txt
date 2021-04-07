@@ -54,8 +54,6 @@ D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Locador
 D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\LocadoraMVC.runtimeconfig.dev.json
 D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\LocadoraMVC.dll
 D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\LocadoraMVC.pdb
-D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
@@ -63,9 +61,6 @@ D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microso
 D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
 D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
@@ -82,3 +77,6 @@ D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\obj\Debug\netcoreapp3.1\Locador
 D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\obj\Debug\netcoreapp3.1\staticwebassets\LocadoraMVC.StaticWebAssets.Manifest.cache
 D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\obj\Debug\netcoreapp3.1\staticwebassets\LocadoraMVC.StaticWebAssets.xml
 D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\obj\Debug\netcoreapp3.1\LocadoraMVC.genruntimeconfig.cache
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
