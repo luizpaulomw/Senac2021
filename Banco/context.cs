@@ -10,9 +10,9 @@ namespace DbRespositorie
         /// <value> Get and Set properties of customers  </value>
         public DbSet<ClienteModels> Clientes { get; set; }
         /// <value> Get and Set properties of movies  </value>
-        public DbSet<CarroModels> Carro { get; set; }
+        public DbSet<CarroModels> Carros { get; set; }
         /// <value> Get and Set properties of rentals  </value>
-        public DbSet<LocacaoModels> Locacao { get; set; }
+        public DbSet<LocacaoModels> Locacoes { get; set; }
 
 
 

@@ -14,7 +14,7 @@ namespace Models
         public ClienteModels Cliente { get; set; }
         public DateTime DtLocacao { get; set; }
 
-        public List<CarroModels> carros = new List<CarroModels>();
+       // public List<CarroModels> carros = new List<CarroModels>();
 
         public LocacaoModels(ClienteModels cliente, DateTime dtLocacao)
         {
@@ -34,24 +34,24 @@ namespace Models
 
         public void AdicionarCarro(CarroModels carro)
         {
-            carros.Add(carro);
+            //carros.Add(carro);
         }
 
         public void InserirCarro(CarroModels carro)
         {
-            carros.Add(carro);
+           // carros.Add(carro);
         }
 
 
         public override string ToString()
         {
             string retorno = $"Cliente: {Cliente.Nome}" +
-                $"Preço Total das Locações: {LocacaoController.GetValorTotal(carros)}" +
+             //   $"Preço Total das Locações: {LocacaoController.GetValorTotal(carros)}" +
                 $"Data da Locacao: {DtLocacao}" +
                 $"Data de Devolucao: {LocacaoController.GetDataDevolucao(this)}" +
                 "   Carro:\n";
 
-            if (carros.Count > 0)
+            /*if (carros.Count > 0)
             {
                 carros.ForEach(
                     carro => retorno += $"    Id: {carro.CarroId} - " +
@@ -61,7 +61,7 @@ namespace Models
             else
             {
                 retorno += "    Não há carros";
-            }
+            }*/
 
             return retorno;
         }
@@ -75,6 +75,10 @@ namespace Models
         public static List<LocacaoModels> GetLocacao()
         {
             return LocacaoRepositories.Locacoes();
+        }
+        
+        public LocacaoModels(){
+
         }
 
     }

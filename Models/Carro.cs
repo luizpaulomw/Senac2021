@@ -12,20 +12,20 @@ namespace Models
         [Key]
         public int CarroId { get; set; }
         [Required]
-        public String Modelo { get; set; }
-        public string Datafabricação { get; set; }
+        public string Modelo { get; set; }
+        public string Datafabricacao { get; set; }
         public double ValorLocacaoCarro { get; set; }
         public int Estoque { get; set; }
         public int CarroLocado { get; set; }
 
-        public List<LocacaoModels> locacaos = new List<LocacaoModels>();
+        //public List<LocacaoModels> locacaos = new List<LocacaoModels>();
 
         // Construtor
-        public CarroModels(int idCarro, string Modelo, string datafabricação, double valorLocacaoCarro, int estoque)
+        public CarroModels(int idCarro, string Modelo, string datafabricacao, double valorLocacaoCarro, int estoque)
         {
             CarroId = CarroRepositories.GetId();
             this.Modelo = Modelo;
-            Datafabricação = datafabricação;
+            Datafabricacao = datafabricacao;
             ValorLocacaoCarro = valorLocacaoCarro;
             Estoque = estoque;
             CarroLocado = 0;
@@ -43,6 +43,8 @@ namespace Models
         {
             return Repositories.CarroRepositories.carros;
         }
+       public CarroModels (){
 
+       }
     }
 }

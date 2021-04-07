@@ -8,10 +8,9 @@ namespace Models
 {
     public class ClienteModels
     {
-        private string v1;
+        
         private DateTime dateTime;
-        private string v2;
-        private int v3;
+      
         [Key]
         public int ClienteId { get; set; }
         [Required]
@@ -21,7 +20,7 @@ namespace Models
         public string Cpf { get; set; }
         public int DiasDevol { get; set; }
 
-        public List<LocacaoModels > Locacoes { get; set; }
+       // public List<LocacaoModels > Locacoes { get; set; }
 
         public ClienteModels (string nome, DateTime dtNasc, string cpf, int dias)
         {
@@ -36,7 +35,7 @@ namespace Models
        
         public void InserirLocacao(LocacaoModels locacao) 
         {
-            Locacoes.Add(locacao);
+            //Locacoes.Add(locacao);
         }
 
         public static ClienteModels GetCliente(int idCliente)
@@ -49,13 +48,12 @@ namespace Models
             return Repositories.ClienteRepositories.clientes;
         }
 
-        public string ToString(bool simple = false)
+        public override string ToString()
         {
-            if (simple)
-            {
+            
                 string retorno = $"Id: {ClienteId} - Nome: {Nome}\n" +
                     "   Locações: \n";
-                if (Locacoes.Count > 0)
+              /*  if (Locacoes.Count > 0)
                 {
                     Locacoes.ForEach(
                         locacao => retorno += 
@@ -69,12 +67,15 @@ namespace Models
                     retorno += "    Não há locações";
                 }
                 return retorno;
-            }
+            }*/
             string dtNasc = this.DtNasc.ToString("dd/MM/yyyy");
 
             return $"Nome: {Nome}\n" +
                 $"Data de Nasciment: {dtNasc}\n" +
                 $"Qtd de Carros: {ClienteController.GetQtdCarro(this)}";
+        }
+        public ClienteModels(){
+
         }
     }
 }

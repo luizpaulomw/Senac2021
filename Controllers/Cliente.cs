@@ -31,9 +31,9 @@ namespace Controllers
         {
             int qtdCarro = 0;
 
-            cliente.Locacoes.ForEach(
+          /*  cliente.Locacoes.ForEach(
                 locacao => qtdCarro += locacao.carros.Count
-            );
+            );*/
 
             return qtdCarro;
         }

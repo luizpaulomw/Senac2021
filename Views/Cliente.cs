@@ -28,7 +28,7 @@ namespace View
         {
             Console.WriteLine("Lista de Clientes: ");
             ClienteController.GetClientes().ForEach(
-                cliente => Console.WriteLine(cliente.ToString(true)));
+                cliente => Console.WriteLine(cliente.ToString()));
         }
 
 

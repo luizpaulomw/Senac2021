@@ -31,7 +31,7 @@ namespace Controllers
 
         public static double GetQtdCarro(LocacaoModels locacao)
         {
-            return locacao.carros.Count;
+            return 0;//locacao.carros.Count;
         }
 
         public static string GetDataDevolucao(DateTime Data)
