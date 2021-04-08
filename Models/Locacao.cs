@@ -8,28 +8,23 @@ namespace Models
 {
     public class LocacaoModels
     {
-        [Key]
-        public int LocacaoId { get; set; }
-        [Required]
+        public int Id { get; set; }
         public ClienteModels Cliente { get; set; }
         public DateTime DtLocacao { get; set; }
 
         public List<CarroModels> carros = new List<CarroModels>();
 
+        public LocacaoModels() {
+
+        }
+        
         public LocacaoModels(ClienteModels cliente, DateTime dtLocacao)
         {
-            LocacaoId = LocacaoRepositories.GetId();
             Cliente = cliente;
             DtLocacao = dtLocacao;
             cliente.InserirLocacao(this);
 
             LocacaoRepositories.AdicionarLocacao(this);
-        }
-
-        public LocacaoModels(int idLocacao, ClienteModels cliente)
-        {
-            LocacaoId = idLocacao;
-            Cliente = cliente;
         }
 
         public void AdicionarCarro(CarroModels carro)
@@ -54,7 +49,7 @@ namespace Models
             if (carros.Count > 0)
             {
                 carros.ForEach(
-                    carro => retorno += $"    Id: {carro.CarroId} - " +
+                    carro => retorno += $"    Id: {carro.Id} - " +
                     $"Nome: {carro.Modelo}\n"
                 );
             }
@@ -69,7 +64,7 @@ namespace Models
 
         public static LocacaoModels GetLocacao(int LocacaoId)
         {
-            return LocacaoRepositories.Locacoes().Find(locacao => locacao.LocacaoId == LocacaoId);
+            return LocacaoRepositories.Locacoes().Find(locacao => locacao.Id == LocacaoId);
         }
 
         public static List<LocacaoModels> GetLocacao()

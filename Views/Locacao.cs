@@ -22,9 +22,9 @@ namespace View
 
             if (idCliente <= 5)
             {
-                ClienteModels cliente = clientes.Find(cliente => cliente.ClienteId == idCliente);
+                ClienteModels cliente = clientes.Find(cliente => cliente.Id == idCliente);
 
-                LocacaoModels locacao = LocacaoController.addLocacao(1, cliente);
+                LocacaoModels locacao = LocacaoController.addLocacao(cliente, new DateTime());
 
                 int idCarro = 0;
 
@@ -37,7 +37,7 @@ namespace View
 
                     if (idCarro != 0)
                     {
-                        CarroModels carro = carros.Find(carro => carro.CarroId == idCarro);
+                        CarroModels carro = carros.Find(carro => carro.Id == idCarro);
 
                         locacao.AdicionarCarro(carro);
                     }
@@ -52,7 +52,7 @@ namespace View
 
             IEnumerable query =
             from locacao in LocacaoController.GetLocacao()
-            where locacao.LocacaoId == idLocacao
+            where locacao.Id == idLocacao
             select locacao.ToString();
 
             foreach (string locacoes in query)

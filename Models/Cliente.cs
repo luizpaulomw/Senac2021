@@ -8,14 +8,7 @@ namespace Models
 {
     public class ClienteModels
     {
-        private string v1;
-        private DateTime dateTime;
-        private string v2;
-        private int v3;
-        [Key]
-        public int ClienteId { get; set; }
-        [Required]
-    
+        public int Id { get; set; }
         public string Nome { get; set; }
         public DateTime DtNasc { get; set; }
         public string Cpf { get; set; }
@@ -23,6 +16,9 @@ namespace Models
 
         public List<LocacaoModels > Locacoes { get; set; }
 
+        public ClienteModels () {
+
+        }
         public ClienteModels (string nome, DateTime dtNasc, string cpf, int dias)
         {
             Nome = nome;
@@ -30,7 +26,9 @@ namespace Models
             Cpf = cpf;
             DiasDevol = dias;
 
-            ClienteRepositories.clientes.Add(this);
+            Context db = new Context();
+            db.Clientes.Add(this);
+            db.SaveChanges();
         }
 
        
@@ -41,7 +39,7 @@ namespace Models
 
         public static ClienteModels GetCliente(int idCliente)
         {
-            return ClienteRepositories.Clientes().Find(cliente => cliente.ClienteId == idCliente);
+            return ClienteRepositories.Clientes().Find(cliente => cliente.Id == idCliente);
         }
 
         public static List<ClienteModels> GetClientes()
@@ -53,13 +51,13 @@ namespace Models
         {
             if (simple)
             {
-                string retorno = $"Id: {ClienteId} - Nome: {Nome}\n" +
+                string retorno = $"Id: {Id} - Nome: {Nome}\n" +
                     "   Locações: \n";
                 if (Locacoes.Count > 0)
                 {
                     Locacoes.ForEach(
                         locacao => retorno += 
-                        $"    Id: {locacao.LocacaoId} - " +
+                        $"    Id: {locacao.Id} - " +
                         $"Data: {locacao.DtLocacao} - " +
                         $"Data de Devolução: {LocacaoController.GetDataDevolucao(locacao)}\n"
                     );

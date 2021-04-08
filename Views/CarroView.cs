@@ -42,7 +42,7 @@ namespace View
 
             IEnumerable query =
             from carro in CarroController.GetCarro()
-            where carro.CarroId == idCarro
+            where carro.Id == idCarro
             select carro.ToString();
 
             foreach (string carros  in query)

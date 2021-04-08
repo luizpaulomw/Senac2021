@@ -65,9 +65,9 @@ namespace Controllers
             throw new NotImplementedException();
         }
 
-        public static LocacaoModels addLocacao(int idLocacao, ClienteModels cliente)
+        public static LocacaoModels addLocacao(ClienteModels cliente, DateTime data)
         {
-            return new LocacaoModels(idLocacao, cliente);
+            return new LocacaoModels(cliente, data);
         }
     }
 }

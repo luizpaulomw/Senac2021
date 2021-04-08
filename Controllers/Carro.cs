@@ -7,9 +7,9 @@ namespace Controllers
 {
     public class CarroController
     {
-        public static void addCarro(int idCarro, string Modelo, string dataLanc, double valorLoc, int estoque)
+        public static void addCarro(string Modelo, string dataLanc, double valorLoc, int estoque)
         {
-            new CarroModels(idCarro, Modelo, dataLanc, valorLoc, estoque);
+            new CarroModels(Modelo, dataLanc, valorLoc, estoque);
         }
 
         public string GetCarro(CarroModels carro)

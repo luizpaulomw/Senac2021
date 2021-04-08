@@ -38,7 +38,7 @@ namespace View
             int idCliente = Convert.ToInt32(Console.ReadLine());
             IEnumerable query =
              from cliente in ClienteController.GetClientes()
-             where cliente.ClienteId == idCliente
+             where cliente.Id == idCliente
              select cliente.Nome;
 
             foreach (string cliente in query)
