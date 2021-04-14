@@ -1,0 +1,82 @@
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\LocadoraMVC.exe
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\LocadoraMVC.deps.json
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\LocadoraMVC.runtimeconfig.json
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\LocadoraMVC.runtimeconfig.dev.json
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\LocadoraMVC.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\LocadoraMVC.pdb
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\obj\Debug\netcoreapp3.1\LocadoraMVC.csprojAssemblyReference.cache
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\obj\Debug\netcoreapp3.1\LocadoraMVC.csproj.CoreCompileInputs.cache
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\obj\Debug\netcoreapp3.1\LocadoraMVC.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\obj\Debug\netcoreapp3.1\LocadoraMVC.AssemblyInfoInputs.cache
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\obj\Debug\netcoreapp3.1\LocadoraMVC.AssemblyInfo.cs
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\obj\Debug\netcoreapp3.1\LocadoraMVC.RazorTargetAssemblyInfo.cache
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\obj\Debug\netcoreapp3.1\staticwebassets\LocadoraMVC.StaticWebAssets.Manifest.cache
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\obj\Debug\netcoreapp3.1\staticwebassets\LocadoraMVC.StaticWebAssets.xml
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\obj\Debug\netcoreapp3.1\LocadoraMVC.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\obj\Debug\netcoreapp3.1\LocadoraMVC.pdb
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\obj\Debug\netcoreapp3.1\LocadoraMVC.genruntimeconfig.cache
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.Design.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+D:\Users\Acer\Desktop\Senac 2020\Locadora02\obj\Debug\netcoreapp3.1\LocadoraMVC.csproj.CopyComplete
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\obj\Debug\netcoreapp3.1\LocadoraMVC.csprojAssemblyReference.cache
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\obj\Debug\netcoreapp3.1\LocadoraMVC.AssemblyInfoInputs.cache
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\obj\Debug\netcoreapp3.1\LocadoraMVC.AssemblyInfo.cs
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\obj\Debug\netcoreapp3.1\LocadoraMVC.csproj.CoreCompileInputs.cache
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\obj\Debug\netcoreapp3.1\LocadoraMVC.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\obj\Debug\netcoreapp3.1\LocadoraMVC.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\obj\Debug\netcoreapp3.1\LocadoraMVC.pdb
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\LocadoraMVC.exe
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\LocadoraMVC.deps.json
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\LocadoraMVC.runtimeconfig.json
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\LocadoraMVC.runtimeconfig.dev.json
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\LocadoraMVC.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\LocadoraMVC.pdb
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.Design.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\obj\Debug\netcoreapp3.1\LocadoraMVC.RazorTargetAssemblyInfo.cache
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\obj\Debug\netcoreapp3.1\LocadoraMVC.csproj.CopyComplete
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\obj\Debug\netcoreapp3.1\staticwebassets\LocadoraMVC.StaticWebAssets.Manifest.cache
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\obj\Debug\netcoreapp3.1\staticwebassets\LocadoraMVC.StaticWebAssets.xml
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\obj\Debug\netcoreapp3.1\LocadoraMVC.genruntimeconfig.cache
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\Users\Luiz Paulo\Desktop\Senac 2021\Senac2021\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
