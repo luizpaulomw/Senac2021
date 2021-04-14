@@ -9,6 +9,8 @@ namespace Repositories {
         public DbSet<CarroModels> Carros { get; set; }
         public DbSet<LocacaoModels> Locacaes { get; set; }
 
+         public DbSet<CaminhaoModels> Caminhao { get; set; }
+
         protected override void OnConfiguring (DbContextOptionsBuilder options) {
             options.UseMySql ("server=localhost;User Id=root;Database=dbluiz");
         }

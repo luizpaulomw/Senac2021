@@ -15,10 +15,11 @@ namespace csharp_mvc_blockbuster
                 Console.WriteLine ("| Digite a opção desejada |");
                 Console.WriteLine ("| 1 - Cadastrar Cliente   |");
                 Console.WriteLine ("| 2 - Cadastrar Carro     |");
-                Console.WriteLine ("| 3 - Cadastrar Locação   |");
-                Console.WriteLine ("| 4 - Consultar Cliente   |");
-                Console.WriteLine ("| 5 - Consultar Carro     |");
-                Console.WriteLine ("| 6 - Consultar Locação   |");
+                Console.WriteLine ("| 3 - Cadastra Caminhão   |");
+                Console.WriteLine ("| 4 - Cadastrar Locação   |");
+                Console.WriteLine ("| 5 - Consultar Cliente   |");
+                Console.WriteLine ("| 6 - Consultar Carro     |");
+                Console.WriteLine ("| 7 - Consultar Locação   |");
                 Console.WriteLine ("| 0 - Sair                |");
                
 
@@ -35,20 +36,24 @@ namespace csharp_mvc_blockbuster
                         ClienteView.InserirCliente ();
                         break;
                     case 2:
-                         CarroView.InserirCarro ();
+                        CarroView.InserirCarro ();
                         break;
-                    case 3:
+                   case 3:
+                        CaminhaoView.InserirCaminhao ();
+                        break;
+                    case 4:
                         LocacaoView.InserirLocacao ();
                         break;                
-                    case 4:
+                    case 5:
                         ClienteView.ConsultarCliente ();
                         break;                
-                    case 5:
+                    case 6:
                         CarroView.ConsultarCarro ();
                         break;
-                    case 6:
+                    case 7:
                         LocacaoView.ConsultarLocacao ();
                         break;
+                  
                   
                 }
             } while (opt != 0);

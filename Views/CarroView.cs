@@ -20,6 +20,8 @@ namespace View
             Console.WriteLine(" estoque: ");
             int estoque = Convert.ToInt32(Console.ReadLine());
 
+            CarroController.addCarro(Marca, dataLanc, valorLoc, estoque);
+
   
         }
 
